@@ -1,5 +1,5 @@
 <?php
-    $host = '10.20.1.13:3306'; // El nombre del servicio de la base de datos en el archivo docker-compose.yml; // El puerto mapeado en el archivo docker-compose.yml
+    $host = '10.0.1.6:3306'; // El nombre del servicio de la base de datos en el archivo docker-compose.yml; // El puerto mapeado en el archivo docker-compose.yml
     $database = 'sistema_ecommerce'; // El nombre de la base de datos definido en el archivo docker-compose.yml
     $user = 'hemish'; // El usuario definido en el archivo docker-compose.yml
     $password = 'contrasena123'; // La contraseña definida en el archivo docker-compose.yml
