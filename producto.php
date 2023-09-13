@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Mi sistema E-Commerce</title>
+	<title>E-Commerce</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
@@ -21,13 +21,13 @@
 					<img id="idimg" src="assets/products/crepe.jpg">
 				</div>
 				<div class="part2">
-					<h2 id="idtitle">NOMBRE PRINCIPAL</h2>
+					<h2 id="idtitle">NAME</h2>
 					<h1 id="idprice">S/. 35.<span>99</span></h1>
-					<h3 id="iddescription">Descripcion del producto</h3>
+					<h3 id="iddescription">Product description</h3>
 					<button onclick="iniciar_compra()">Comprar</button>
 				</div>
 			</section>
-			<div class="title-section">Productos destacados</div>
+			<div class="title-section">Featured Products</div>
 			<div class="products-list" id="space-list">
 			</div>
 		</div>

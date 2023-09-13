@@ -13,14 +13,14 @@ CREATE TABLE IF NOT EXISTS producto (
 );
 
 INSERT INTO producto (nompro, despro, prepro, estado, rutimapro)
-VALUES ('Papel Crepe', 'Ideal para decoración de trabajos escolares', 14.99, 1, 'crepe.jpg'),
-       ('Papel Bond A4', 'Papel ultra blanco de 180gr', 9.99, 1, 'bonda4.jpg'),
-       ('Colores Faber Castell', 'Caja de colores x 12 unid. + 2 de regalo', 5.99, 1, 'colores12unid.jpg'),
-       ('Ecolapices Faber Castell', 'Caja de ecolapices x 60 unid.', 11.99, 1, 'ecolapices60unid.jpg'),
-       ('Estuche lapices Faber Castell', 'Estuche de lapiceros de colores x 5 unid.', 6.99, 1, 'lapiceros5unid.jpg'),
-       ('Tempera Artesco 250 ml', 'Frasco de tempera Artesco de 250 ml', 3.99, 1, 'temperaartesco.jpg'),
-       ('Plastilina Norma', 'Caja con 12 barras plastilinas. 260 gr', 5.99, 1, 'plastilinanorma.jpg'),
-       ('Cuaderno Standford', 'Cuaderno cuadriculado Standford 100 hojas', 3.49, 1, 'cuadernostandford.jpg');
+VALUES ('Crepe Paper', 'Ideal for decorating school work', 14.99, 1, 'crepe.jpg'),
+        ('A4 Bond Paper', '180gr Ultra White Paper', 9.99, 1, 'bonda4.jpg'),
+        ('Faber Castell Colors', 'Box of colors x 12 units + 2 as a gift', 5.99, 1, 'colores12unit.jpg'),
+        ('Ecolapices Faber Castell', 'Ecolapices box x 60 units', 11.99, 1, 'ecolapices60unid.jpg'),
+        ('Faber Castell pencil case', 'Colored pencil case x 5 units', 6.99, 1, 'pencils5unit.jpg'),
+        ('Artesco Tempera 250 ml', 'Artesco Tempera Bottle 250 ml', 3.99, 1, 'temperaartesco.jpg'),
+        ('Plasticina Norma', 'Box with 12 plasticine bars. 260 gr', 5.99, 1, 'plastilinanorma.jpg'),
+        ('Standford notebook', 'Standford squared notebook 100 sheets', 3.49, 1, 'standford notebook.jpg');
 
 CREATE TABLE IF NOT EXISTS usuario (
     codusu int not null AUTO_INCREMENT,

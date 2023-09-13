@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Mi sistema E-Commerce</title>
+	<title>E-Commerce</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
@@ -19,17 +19,16 @@
 	<?php include("layouts/_main-header.php"); ?>
 	<div class="main-content">
 		<div class="content-page">
-			<h3>Mis pedidos</h3>
+			<h3>My Orders</h3>
 			<div class="body-pedidos" id="space-list">
 			</div>
-			<h3>Datos de pago</h3>
-			<div class="p-line"><div>MONTO TOTAL:</div>S/.&nbsp;<span id="montototal"></span></div>
-			<div class="p-line"><div>Banco:</div>BCP</div>
-			<div class="p-line"><div>N° de Cuenta:</div>191-45678945-006</div>
-			<div class="p-line"><div>Representante:</div>Encargado de ventas</div>
-			<p><b>NOTA:</b> Para confirmar la compra debe realizar el deposito por le monto total, y enviar el comprobante al siguiente correo example@example.com o al número de whatsapp 999 666 333</p>
+			<h3>Payment details</h3>
+			<div class="p-line"><div>TOTAL AMOUNT:</div>S/.&nbsp;<span id="total amount"></span></div>
+			<div class="p-line"><div>Bank:</div>BCP</div>
+			<div class="p-line"><div>Account No.:</div>191-45678945-006</div>
+			<div class="p-line"><div>Representative:</div>Sales Manager</div>
+			<p><b>NOTE:</b> To confirm the purchase you must make the deposit for the total amount, and send the receipt to the following email example@example.com or to the WhatsApp number 999 666 333</p>
 		</div>
-	</div>
 	<?php include("layouts/_footer.php"); ?>
 	<script type="text/javascript" src="js/main-scripts.js"></script>
 	<script type="text/javascript">

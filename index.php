@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Mi sistema E-Commerce</title>
+	<title>E-Commerce</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
@@ -16,7 +16,7 @@
 	<?php include("layouts/_main-header.php"); ?>
 	<div class="main-content">
 		<div class="content-page">
-			<div class="title-section">Choose product:</div>
+			<div class="title-section">List product:</div>
 			<div class="products-list" id="space-list">
 			</div>
 		</div>

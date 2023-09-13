@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Mi sistema E-Commerce</title>
+	<title>E-Commerce</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
@@ -19,14 +19,14 @@
 	<?php include("layouts/_main-header.php"); ?>
 	<div class="main-content">
 		<div class="content-page">
-			<h3>Mi carrito</h3>
+			<h3>My Cart</h3>
 			<div class="body-pedidos" id="space-list">
 			</div>
 			<input class="ipt-procom" type="text" id="dirusu" placeholder="Dirección">
 			<br>
 			<input class="ipt-procom" type="text" id="telusu" placeholder="Celular">
 			<br>
-			<h4>Tipos de pago</h4>
+			<h4>Type of payment</h4>
 			<div class="metodo-pago">
 				<input type="radio" name="tipopago" value="1" id="tipo1">
 				<label for="tipo1">Pago por transferencia</label>

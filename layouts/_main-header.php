@@ -41,22 +41,22 @@
 	<ul>
 		<li>
 			<a href="carrito.php">
-				<div class="menu-opcion">Carrito</div>
+				<div class="menu-opcion">Cart</div>
 			</a>
 		</li>
 		<li>
 			<a href="historial.php">
-				<div class="menu-opcion">Historial de compras</div>
+				<div class="menu-opcion">History</div>
 			</a>
 		</li>
 		<li>
 			<a href="pedido.php">
-				<div class="menu-opcion">Pedidos por pagar</div>
+				<div class="menu-opcion">Unpaid order</div>
 			</a>
 		</li>
 		<li>
 			<a href="_logout.php">
-				<div class="menu-opcion">Salir</div>
+				<div class="menu-opcion">Logout</div>
 			</a>
 		</li>
 	</ul>
@@ -66,12 +66,12 @@
 	<ul>
 		<li>
 			<a href="login.php">
-				<div class="menu-opcion">Iniciar sessión</div>
+				<div class="menu-opcion">Login</div>
 			</a>
 		</li>
 		<li>
 			<a href="carrito.php">
-				<div class="menu-opcion">Carrito</div>
+				<div class="menu-opcion">Cart</div>
 			</a>
 		</li>
 	</ul>

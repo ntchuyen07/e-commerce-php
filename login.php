@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Mi sistema E-Commerce</title>
+	<title>E-Commerce</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
@@ -48,32 +48,32 @@
 		<div class="content-page">
 			<div>
 				<form action="servicios/login.php" method="POST">
-					<h3>Iniciar sesión</h3>
+					<h3>Log in</h3>
 					<input type="text" name="emausu" placeholder="Correo">
 					<input type="password" name="pasusu" placeholder="Contraseña">
 					<?php
 						if (isset($_GET['e'])) {
 							switch ($_GET['e']) {
 								case '1':
-									echo '<p>Error de conexión</p>';
+									echo '<p>Connection error</p>';
 									break;	
 								case '2':
-									echo '<p>Email inválido</p>';
+									echo '<p>Invalid email</p>';
 									break;	
 								case '3':
-									echo '<p>Contraseña incorrecta</p>';
+									echo '<p>Incorrect password</p>';
 									break;							
 								default:
 									break;
 							}
 						}
 					?>
-					<button type="submit">Ingresar</button>
+					<button type="submit">Login</button>
 				</form>	
 			</div>
 			<div>
 				<form action="servicios/register.php" method="POST">
-					<h3>Regístrate</h3>
+					<h3>Register</h3>
 					<input type="text" name="emausur" placeholder="Correo">
 					<input type="password" name="pasusur" placeholder="Contraseña">
 					<input type="password" name="pasusu2r" placeholder="Confirmar contraseña">
@@ -81,20 +81,20 @@
 						if (isset($_GET['er'])) {
 							switch ($_GET['er']) {
 								case '1':
-									echo '<p>Error de conexión</p>';
+									echo '<p>Connection error</p>';
 									break;	
 								case '2':
-									echo '<p>Email ya esta siendo usado</p>';
+									echo '<p>Email is already being used</p>';
 									break;	
 								case '3':
-									echo '<p>Las contraseñas no coinciden</p>';
+									echo '<p>Passwords do not match</p>';
 									break;							
 								default:
 									break;
 							}
 						}
 					?>
-					<button type="submit">Crear cuenta</button>
+					<button type="submit">Create</button>
 				</form>
 			</div>	
 		</div>
