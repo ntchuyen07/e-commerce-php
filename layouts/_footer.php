@@ -1,4 +1,4 @@
-<footer>
+<!-- <footer>
 	<div class="body-footer">
 		<div class="div-flex mb20">
 			<div class="part">
@@ -14,4 +14,4 @@
 		</div>
 		<center><h5>Mi tienda - Derechos reservador 2021</h5></center>
 	</div>
-</footer>
+</footer> -->
